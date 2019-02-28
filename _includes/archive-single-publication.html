@@ -25,6 +25,23 @@
           alt="">
       </div>
     {% endif %}
+    
+    <p>
+      {% if post.authors %}
+      {{ post.authors }},
+      {% endif %}
+       "{{ post.title }}," {{ post.venue }},
+      {% if post.vol %}
+      vol. {{ post.vol }},
+      {% endif %}
+      {% if post.no %}
+       no. {{ post.no }},
+      {% endif %}
+      {% if post.pages %}
+       pp. {{ post.pages }},
+      {% endif %}
+      {{ post.year }}.
+    </p>
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
