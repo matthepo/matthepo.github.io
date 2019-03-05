@@ -25,7 +25,7 @@
           alt="">
       </div>
     {% endif %}
-    
+
     <p>
       {% if post.authors %}
       {{ post.authors }},
@@ -42,8 +42,11 @@
       {% endif %}
       {{ post.year }}.
     <br>
-      {% if post.arxiv %}
-      [<a href="{{ post.arxiv }}">preprint</a>]
+      {% if post.preprint %}
+      [<a href="{{ post.preprint }}">preprint</a>]
+      {% endif %}
+      {% if post.techreport %}
+      [<a href="{{ post.techreport }}">preprint</a>]
       {% endif %}
       {% if post.video %}
       [<a href="{{ post.video }}">preprint</a>]
