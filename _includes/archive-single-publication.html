@@ -46,13 +46,13 @@
       [<a href="{{ post.preprint }}">preprint</a>]
       {% endif %}
       {% if post.techreport %}
-      [<a href="{{ post.techreport }}">preprint</a>]
+      [<a href="{{ post.techreport }}">tech-report</a>]
       {% endif %}
       {% if post.video %}
-      [<a href="{{ post.video }}">preprint</a>]
+      [<a href="{{ post.video }}">video</a>]
       {% endif %}
     </p>
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
