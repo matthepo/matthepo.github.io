@@ -15,3 +15,11 @@ video:
 ~journal={arXiv preprint arXiv:1909.00014},
 ~year={2019}
 }
+
+<pre><code>@article{hespanhol2019sensor,
+  title={Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests},
+  author={Hespanhol, Pedro and Porter, Matthew and Vasudevan, Ram and Aswani, Anil},
+  journal={arXiv preprint arXiv:1909.00014},
+  year={2019}
+}
+</code></pre>
