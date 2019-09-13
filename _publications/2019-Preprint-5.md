@@ -1,17 +1,17 @@
 ---
-title: "Simulation and Real-World Evaluation of Attack Detection Schemes"
-authors: "M. Porter, A. Joshi, P. Hespanhol, A. Aswani, M. Johnson-Roberson, R. Vasudevan"
+title: "Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests"
+authors: "P. Hespanhol, M. Porter, R. Vasudevan, A. Aswani"
 collection: publications
-permalink: /publication/2018-ACC-4
+permalink: /publication/2019-Arxiv-5
 year: 2019
-venue: 'in American Conference on Control'
-preprint:
-techreport: 'https://arxiv.org/abs/1810.07773'
-video: 'http://www.roahmlab.com/acc2019_dynwatermark_video'
+venue: 'arXiv preprint arXiv:1909.00014'
+preprint: 'https://arxiv.org/abs/1909.00014'
+techreport:
+video:
 ---
-@inproceedings{porter2019simulation,<br>
-  title={Simulation and real-world evaluation of attack detection schemes},<br>
-  author={Porter, Matthew and Joshi, Arnav and  Hespanhol, Pedro and Aswani, Anil and Johnson-Roberson, Matthew and  Vasudevan, Ram},<br>
-  booktitle={2019 Annual American Control Conference (ACC)},<br>
-  year={2019}<br>
+@article{hespanhol2019sensor,
+  title={Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests},
+  author={Hespanhol, Pedro and Porter, Matthew and Vasudevan, Ram and Aswani, Anil},
+  journal={arXiv preprint arXiv:1909.00014},
+  year={2019}
 }
