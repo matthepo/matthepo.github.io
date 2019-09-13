@@ -10,10 +10,8 @@ techreport:
 video:
 ---
 @article{hespanhol2019sensor,
-  <ul style='list-style-type:none'>
-    <li>title={Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests},</li>
-    <li>author={Hespanhol, Pedro and Porter, Matthew and Vasudevan, Ram and Aswani, Anil},</li>
-    <li>journal={arXiv preprint arXiv:1909.00014},</li>
-    <li>year={2019}</li>
-  </ul>
+~title={Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests},
+~author={Hespanhol, Pedro and Porter, Matthew and Vasudevan, Ram and Aswani, Anil},
+~journal={arXiv preprint arXiv:1909.00014},
+~year={2019}
 }
