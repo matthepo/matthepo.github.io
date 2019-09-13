@@ -9,9 +9,9 @@ preprint: 'https://arxiv.org/abs/1909.00014'
 techreport:
 video:
 ---
-@article{hespanhol2019sensor,
-  title={Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests},
-  author={Hespanhol, Pedro and Porter, Matthew and Vasudevan, Ram and Aswani, Anil},
-  journal={arXiv preprint arXiv:1909.00014},
-  year={2019}
+@article{hespanhol2019sensor,<br>
+&nbsp title={Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests},<br>
+&nbsp author={Hespanhol, Pedro and Porter, Matthew and Vasudevan, Ram and Aswani, Anil},<br>
+&nbsp journal={arXiv preprint arXiv:1909.00014},<br>
+&nbsp year={2019}<br>
 }
