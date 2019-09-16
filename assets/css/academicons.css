@@ -325,19 +325,19 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
-a.mylink:link{
+a.mylink:link {
   color: #494E52;
   text-decoration: none;
 }
-a.mylink:visited{
+a.mylink:visited {
   color: #494E52;
   text-decoration: none;
 }
-a.mylink:hover{
+a.mylink:hover {
   color: #494E52;
   text-decoration: underline;
 }
-a.mylink:active{
+a.mylink:active {
   color: #494E52;
   text-decoration: underline;
 }
