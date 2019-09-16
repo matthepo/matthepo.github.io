@@ -341,3 +341,8 @@ a.mylink:active {
   color: #494E52;
   text-decoration: underline;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
