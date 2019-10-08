@@ -2,7 +2,7 @@
 title: "Sensor Switching Control Under Attacks Detectable by Finite Sample Dynamic Watermarking Tests"
 authors: "P. Hespanhol, M. Porter, R. Vasudevan, A. Aswani"
 collection: publications
-permalink: /publication/2019-Preprint-5
+permalink: /publication/2019-Arxiv-5
 year: 2019
 venue: 'arXiv preprint arXiv:1909.00014'
 preprint: 'https://arxiv.org/abs/1909.00014'
