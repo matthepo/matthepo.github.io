@@ -3,7 +3,7 @@ title: "Detecting Deception Attacks on Autonomous Vehicles via Linear Time-Varyi
 authors: "M. Porter, S. Dey, A. Joshi, P. Hespanhol, A. Aswani, M. Johnson-Roberson, R. Vasudevan, A. Aswani"
 collection: publications
 permalink: /publication/2020-Preprint-7
-year: 2019
+year: 2020
 venue: 'arXiv preprint arXiv:2001.09859'
 preprint: 'https://arxiv.org/abs/2001.09859'
 techreport:
