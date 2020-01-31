@@ -44,12 +44,28 @@
   text-decoration: underline;
   outline: none;
 }
+.collapsibleBib {
+  background-color: white;
+  color: #52adc8;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  outline: none;
+}
 
 .active, .collapsible:hover {
   background-color: #555;
 }
 
 .mycontent{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.mybib{
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;

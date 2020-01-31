@@ -16,3 +16,20 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
+
+<script>
+var coll = document.getElementsByClassName("collapsibleBib");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var mycontent = this.parentNode.nextElementSibling.nextElementSibling;
+    if (mycontent.style.maxHeight){
+      mycontent.style.maxHeight = null;
+    } else {
+      mycontent.style.maxHeight = mycontent.scrollHeight + "px";
+    }
+  });
+}
+</script>

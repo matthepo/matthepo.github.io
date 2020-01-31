@@ -52,10 +52,13 @@
       {% if post.video %}
       [<a href="{{ post.video }}">video</a>]
       {% endif %}
-      [<a href="{{ base_path }}{{ post.url }}" rel="permalink">bibtex</a>]
+      [<button type="button" class="collapsibleBib">bibtex</button>]
       [<button type="button" class="collapsible">abstract</button>]
     </p>
     <div class="mycontent">
+      <p>{{ post.abstract }}</p>
+    </div>
+    <div class="mybib">
       <p>{{ post.abstract }}</p>
     </div>
 
