@@ -56,10 +56,10 @@
       [<button type="button" class="collapsible">abstract</button>]
     </p>
     <div class="mycontent">
-      <p>{{ post.abstract }}</p>
+      <pre>{{ post.abstract }}</pre>
     </div>
     <div class="mybib">
-      <p id="{{ post.id }}" style="margin-bottom:-30px;padding-bottom:30px;">{{ post.bibtex }}</p>
+      <pre id="{{ post.id }}" style="margin-bottom:-30px;padding-bottom:30px;">{{ post.bibtex }}</pre>
       <div>
         <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
       </div>
