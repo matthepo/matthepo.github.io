@@ -15,3 +15,4 @@ author_profile: true
   <li>{% include archive-single-publication.html %}</li>
 {% endfor %}
 </ol>
+{% include publication-button-script.html %}

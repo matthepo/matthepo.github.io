@@ -43,7 +43,7 @@
       {{ post.year }}.
     </p>
     <button type="button" class="collapsible">Abstract</button>
-    <div class="content" style="max-height:0;overflow:hidden;transition:max-height 0.2s ease-out;">
+    <div class="content" style="max-height:0;overflow:hidden;transition:max-height 0.5s ease-out;">
       <p>{{ post.abstract }}</p>
     </div>
     <p>
@@ -64,20 +64,3 @@
     {% endif %}
   </article>
 </div>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
-</script>
