@@ -75,7 +75,7 @@
 }
 </style>
 <script>
-function copyFunction() {
+function copyFunction(element) {
   var $temp = $("<input>");
   $("body").append($temp);
   $temp.val($(element).text()).select();
