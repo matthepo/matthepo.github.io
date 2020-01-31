@@ -42,10 +42,6 @@
       {% endif %}
       {{ post.year }}.
     </p>
-    <button type="button" class="collapsible">Abstract</button>
-    <div class="mycontent">
-      <p>{{ post.abstract }}</p>
-    </div>
     <p>
       {% if post.preprint %}
       [<a href="{{ post.preprint }}">preprint</a>]
@@ -57,7 +53,11 @@
       [<a href="{{ post.video }}">video</a>]
       {% endif %}
       [<a href="{{ base_path }}{{ post.url }}" rel="permalink">bibtex</a>]
+      [<button type="button" class="collapsible">Abstract</button>]
     </p>
+    <div class="mycontent">
+      <p>{{ post.abstract }}</p>
+    </div>
 
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
