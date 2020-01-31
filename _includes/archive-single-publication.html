@@ -41,7 +41,12 @@
        pp. {{ post.pages }},
       {% endif %}
       {{ post.year }}.
-    <br>
+    </p>
+    <button type="button" class="collapsible">Abstract</button>
+    <div class="content">
+      <p>{{ post.abstract }}</p>
+    </div>
+    <p>
       {% if post.preprint %}
       [<a href="{{ post.preprint }}">preprint</a>]
       {% endif %}
@@ -59,3 +64,20 @@
     {% endif %}
   </article>
 </div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
