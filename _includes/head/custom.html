@@ -54,11 +54,9 @@
   outline: none;
 }
 
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
 .mycontent{
+  margin-top: 3px;
+  margin-bottom: 3px;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
@@ -72,5 +70,17 @@
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+.copyText{
+  float: right;
+}
 </style>
+<script>
+function copyFunction() {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
 <!-- end custom head snippets -->

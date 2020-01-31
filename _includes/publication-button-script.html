@@ -6,7 +6,6 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
     var mycontent = this.parentNode.nextElementSibling;
     if (mycontent.style.maxHeight){
       mycontent.style.overflow = "hidden";
@@ -25,7 +24,6 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
     var mycontent = this.parentNode.nextElementSibling.nextElementSibling;
     if (mycontent.style.maxHeight){
       mycontent.style.overflow = "hidden";
