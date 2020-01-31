@@ -26,7 +26,7 @@
       </div>
     {% endif %}
 
-    <p style="margin-bottom:5px">
+    <p style="margin:0">
       {% if post.authors %}
       {{ post.authors }},
       {% endif %}
@@ -42,7 +42,7 @@
       {% endif %}
       {{ post.year }}.
     </p>
-    <p>
+    <p style="margin:0">
       {% if post.preprint %}
       [<a href="{{ post.preprint }}">preprint</a>]
       {% endif %}
