@@ -26,7 +26,7 @@
       </div>
     {% endif %}
 
-    <p>
+    <p style="margin-bottom:5px">
       {% if post.authors %}
       {{ post.authors }},
       {% endif %}
@@ -53,7 +53,7 @@
       [<a href="{{ post.video }}">video</a>]
       {% endif %}
       [<a href="{{ base_path }}{{ post.url }}" rel="permalink">bibtex</a>]
-      [<button type="button" class="collapsible">Abstract</button>]
+      [<button type="button" class="collapsible">abstract</button>]
     </p>
     <div class="mycontent">
       <p>{{ post.abstract }}</p>
