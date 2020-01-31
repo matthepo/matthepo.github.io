@@ -59,9 +59,9 @@
       <p>{{ post.abstract }}</p>
     </div>
     <div class="mybib">
-      <p id="{{ post.permalink }}" style="margin-bottom:-30px;padding-bottom:30px;">{{ post.bibtex }}</p>
+      <p id="{{ post.id }}" style="margin-bottom:-30px;padding-bottom:30px;">{{ post.bibtex }}</p>
       <div>
-        <button onclick="copytoClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
+        <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
       </div>
     </div>
     {% if post.read_time %}
