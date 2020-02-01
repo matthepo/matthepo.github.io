@@ -59,7 +59,7 @@
       <pre>{{ post.abstract }}</pre>
     </div>
     <div class="mybib" style="background-color: #f1f1f1;" id="{{ post.permalink }}">
-      {% include {{ post.bibhtml }} %}
+      {% include "{{ post.bibhtml }}" %}
     </div>
     <div class="mybib" style="width:100%;background-color: #b4b4b4;">
       <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
