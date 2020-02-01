@@ -80,7 +80,7 @@
 </style>
 <script>
 function copyToClipboard(id) {
-        var from = document.getElementById(id).childNode(0);
+        var from = document.getElementById(id).childNodes[0];
         var range = document.createRange();
         window.getSelection().removeAllRanges();
         range.selectNode(from);
