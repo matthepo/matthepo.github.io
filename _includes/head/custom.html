@@ -75,7 +75,8 @@
 </style>
 <script>
 function copyToClipboard(id) {
-        var from = document.getElementById(id);
+        var outer = document.getElementById(id);
+        var from = outer.childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[0];
         var range = document.createRange();
         window.getSelection().removeAllRanges();
         range.selectNode(from);
