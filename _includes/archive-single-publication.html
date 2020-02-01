@@ -59,7 +59,9 @@
       <pre>{{ post.abstract }}</pre>
     </div>
     <div class="mybib">
-      <pre id="{{ post.permalink }}" style="margin-bottom:-30px;padding-bottom:30px;word-wrap: break-word; white-space: pre-wrap;"><embed class="mine" src="{{ post.biblink }}"></pre>
+      <pre class="fitvidsignore" id="{{ post.permalink }}" style="margin-bottom:-30px;padding-bottom:30px;word-wrap: break-word; white-space: pre-wrap;">
+        <embed src="{{ post.biblink }}">
+      </pre>
       <div>
         <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
       </div>
