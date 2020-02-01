@@ -62,10 +62,10 @@
       {% include {{ post.bibhtml }} %}
     </div>
     <div class="mybib" style="width:100%;background-color: #b4b4b4;margin:0;">
-      <a class="button" href='{{ post.biblink }}' download>
+      <a class="button" style="float:right" href='{{ post.biblink }}' download>
         <img src="/images/download.png" alt="Download .txt" style="height:20px">
       </a>
-      <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">
+      <button onclick="copyToClipboard('{{ post.permalink }}')" class="button" style="float:right">
         <img src="/images/copy.png" alt="Copy" style="height:20px">
       </button>
     </div>
