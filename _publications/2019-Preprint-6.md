@@ -3,7 +3,7 @@ title: "Detecting Generalized Replay Attacks via Time-Varying Dynamic Watermarki
 authors: "M. Porter, P. Hespanhol, A. Aswani, M. Johnson-Roberson, R. Vasudevan, A. Aswani"
 collection: publications
 permalink: /publication/2019-Preprint-6
-biblink: 'https://matthepo.github.io/publications/bibtex/2019-Preprint-6.txt'
+biblink: '/files/bibtex/2019-Preprint-6.txt'
 bibhtml: '/bibtex-html/2019-Preprint-5.html'
 year: 2019
 venue: 'arXiv preprint arXiv:1909.08111'

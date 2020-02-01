@@ -3,7 +3,7 @@ title: "Sensor Switching Control Under Attacks Detectable by Finite Sample Dynam
 authors: "P. Hespanhol, M. Porter, R. Vasudevan, A. Aswani"
 collection: publications
 permalink: /publication/2019-Preprint-5
-biblink: 'https://matthepo.github.io/publications/bibtex/2019-Preprint-5.txt'
+biblink: '/files/bibtex/2019-Preprint-5.txt'
 bibhtml: '/bibtex-html/2019-Preprint-5.html'
 year: 2019
 venue: 'arXiv preprint arXiv:1909.00014'
