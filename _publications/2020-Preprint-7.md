@@ -12,10 +12,15 @@ abstract: "Cyber-physical systems (CPS) such as autonomous vehicles rely on both
 
 This paper relaxes the requirement for inputs to be visible in a single step and constructs an auto-correlation normalizing factor to remove the effects of auto-correlation. In addition, Dynamic Watermarking is applied to a high-fidelity vehicle model in carsim and a 1/10 scale autonomous rover to further reinforce the proof of concept for realistic systems. In each case, the vehicle follows a predefined path with time-varying velocity and turning radii. A replay attack, which replays previously recorded measurements, is shown to be detectable using LTV Dynamic Watermarking in a quick and repeatable manner."
 bibtex: "@article{porter2019ltv,
+
   title={Detecting Generalized Replay Attacks via Time-Varying Dynamic Watermarking},
+
   author={Porter, Matthew and Hespanhol, Pedro and Aswani, Anil and Johnson-Roberson, Matthew and Vasudevan, Ram},
+
   journal={arXiv preprint arXiv:1909.08111},
+
   year={2019}
+  
 }"
 ---
 @article{porter2020deception,<br>
