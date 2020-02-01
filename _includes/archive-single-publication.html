@@ -56,10 +56,10 @@
       [<button type="button" class="collapsible">abstract</button>]
     </p>
     <div class="mycontent">
-      <pre>{{ post.abstract }}</pre>
+      <pre class="bibtext">{{ post.abstract }}</pre>
     </div>
     <div class="mybib" style="background-color: #f1f1f1;" id="{{ post.permalink }}">
-      {% include /bibtex-html/2016-DSCC-1.html %}
+      {% include {{ post.bibhtml }} %}
     </div>
     <div class="mybib" style="width:100%;background-color: #b4b4b4;">
       <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
