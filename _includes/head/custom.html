@@ -35,6 +35,24 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 <style>
+  .mybuttons {
+    border: 2px solid #b4b4b4;
+    background-color: #b4b4b4;
+    transition: all 0.05s ease-in-out;
+    border-radius: 2px;
+    dislplay: block;
+    width: 30px;
+  }
+  .mybuttons:hover{
+    border: 2px solid #616161;
+  }
+  .mybuttons:active {
+    transform: translateY(2px);
+  }
+  .mybuttons:focus{
+      outline: 0;
+      box-shadow: none!important;
+  }
 .collapsible {
   background-color: white;
   color: #52adc8;
@@ -94,5 +112,10 @@ function copyToClipboard(id) {
         document.execCommand('copy');
         window.getSelection().removeAllRanges();
  }
+</script>
+<script>
+function delay (URL, ms) {
+    setTimeout( function() { window.location = URL }, ms);
+}
 </script>
 <!-- end custom head snippets -->
