@@ -4,7 +4,7 @@ authors: "M. Porter, S. Dey, A. Joshi, P. Hespanhol, A. Aswani, M. Johnson-Rober
 collection: publications
 permalink: /publication/2020-Preprint-7
 biblink: 'https://matthepo.github.io/publications/bibtex/2020-Preprint-7.txt'
-bibhtml: 'https://matthepo.github.io/publications/bibtex-html/2020-Preprint-7.html'
+bibhtml: '2020-Preprint-7.html'
 year: 2020
 venue: 'arXiv preprint arXiv:2001.09859'
 preprint: 'https://arxiv.org/abs/2001.09859'
