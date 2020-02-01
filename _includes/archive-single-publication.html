@@ -62,7 +62,9 @@
       {% include {{ post.bibhtml }} %}
     </div>
     <div class="mybib" style="width:100%;background-color: #b4b4b4;">
-      <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
+      <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">
+        <img src="/images/copy.png" alt="Copy" style="height:20px">
+      </button>
     </div>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
