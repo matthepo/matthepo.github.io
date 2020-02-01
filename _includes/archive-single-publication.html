@@ -59,12 +59,12 @@
       <pre>{{ post.abstract }}</pre>
     </div>
     <div class="mybib">
-      <div class="fitvidsignore" id="{{ post.permalink }}">
+      <div class="fitvidsignore" id="{{ post.permalink }}" style="background-color: #f1f1f1;">
         <embed src="{{ post.biblink }}">
       </div>
-      <div>
-        <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
-      </div>
+    </div>
+    <div class="mybib" style="width:100%;background-color: #b4b4b4;">
+      <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
     </div>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>

@@ -25,12 +25,15 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     var mycontent = this.parentNode.nextElementSibling.nextElementSibling;
+    var mycontent2 = mycontent.nextElementSibling;
     if (mycontent.style.maxHeight){
       mycontent.style.overflow = "hidden";
       mycontent.style.maxHeight = null;
+      mycontent2.style.maxHeight = null;
     } else {
       mycontent.style.maxHeight = mycontent.scrollHeight + "px";
       mycontent.style.overflow = "auto";
+      mycontent2.style.maxHeight= "28px"
     }
   });
 }
