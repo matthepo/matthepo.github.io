@@ -61,9 +61,12 @@
     <div class="mybib" style="background-color: #f1f1f1;" id="{{ post.permalink }}">
       {% include {{ post.bibhtml }} %}
     </div>
-    <div class="mybib" style="width:100%;background-color: #b4b4b4;">
+    <div class="mybib" style="width:100%;background-color: #b4b4b4;margin:0;">
       <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">
         <img src="/images/copy.png" alt="Copy" style="height:20px">
+      </button>
+      <button class="copyText" >
+        <img src="/images/Download.png" alt="Download .txt" style="height:20px">
       </button>
     </div>
     {% if post.read_time %}
