@@ -59,7 +59,7 @@
       <pre>{{ post.abstract }}</pre>
     </div>
     <div class="mybib">
-      <pre id="{{ post.permalink }}" style="margin-bottom:-30px;padding-bottom:30px;word-wrap: break-word; white-space: pre-wrap;"></pre>
+      <pre id="{{ post.permalink }}" style="margin-bottom:-30px;padding-bottom:30px;word-wrap: break-word; white-space: pre-wrap;"><embed src="{{ post.biblink }}"></pre>
       <div>
         <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
       </div>
@@ -69,16 +69,3 @@
     {% endif %}
   </article>
 </div>
-
-<script>
-var txtFile = new XMLHttpRequest();
-txtFile.open("GET","{{ post.biblink }}",true);
-txtFile.onreadystatechange = function() {
-  if (txtFile.readyState === 4) {
-    if (txtFile.status === 200) {
-      var txtEle = document.getElementById("{{ post.permalink }}")
-      txtEle.innerHTML = txtFile.responseText;
-    }
-  }
-}
-</script>
