@@ -1,0 +1,9 @@
+@inproceedings{porter2016production,
+  title={Production as a service: Optimizing utilization in manufacturing systems},
+  author={Porter, Matthew and Raghavan, Vikram and Lin, Yikai and Mao, Z Morley and Barton, Kira and Tilbury, Dawn},
+  booktitle={ASME 2016 Dynamic Systems and Control Conference (DSCC)},
+  pages={V002T21A012--V002T21A012},
+  doi={10.1115/DSCC2016-9908},
+  year={2016},
+  organization={American Society of Mechanical Engineers}
+}

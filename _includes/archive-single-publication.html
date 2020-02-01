@@ -59,7 +59,7 @@
       <pre>{{ post.abstract }}</pre>
     </div>
     <div class="mybib">
-      <pre id="{{ post.id }}" style="margin-bottom:-30px;padding-bottom:30px;">{{ post.bibtex }}</pre>
+      <pre id="{{ post.id }}" style="margin-bottom:-30px;padding-bottom:30px;"><object data="{{ post.biblink }}"></object></pre>
       <div>
         <button onclick="copyToClipboard('{{ post.permalink }}')" class="copyText">Copy Text</button>
       </div>
