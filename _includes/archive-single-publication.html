@@ -55,13 +55,13 @@
       [<button type="button" class="collapsibleBib">bibtex</button>]
       [<button type="button" class="collapsible">abstract</button>]
     </p>
-    <div class="mycontent">
+    <div class="mycontent" style="border-radius:3px">
       <pre class="bibtext">{{ post.abstract }}</pre>
     </div>
-    <div class="mybib" style="background-color: #f1f1f1;" id="{{ post.permalink }}">
+    <div class="mybib" style="background-color: #f1f1f1;border-radius:3px 3px 0 0;" id="{{ post.permalink }}">
       {% include {{ post.bibhtml }} %}
     </div>
-    <div class="mybib" style="width:100%;background-color: #b4b4b4;margin:0;">
+    <div class="mybib" style="width:100%;background-color: #b4b4b4;margin:0;border-radius:0 0 3px 3px;">
       <div class="mybuttons">
         <a class="mylink" href='{{ post.biblink }}' download>
           <img class="myimg" src="/images/download.png" alt="Download .txt" style="height:20px">
