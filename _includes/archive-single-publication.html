@@ -62,13 +62,13 @@
       {% include {{ post.bibhtml }} %}
     </div>
     <div class="mybib" style="width:100%;background-color: #b4b4b4;margin:0;">
-      <div class="mybuttons"  style="float:right;width:35px;">
-        <a href='{{ post.biblink }}' download>
+      <div class="mybuttons">
+        <a class="mylink" href='{{ post.biblink }}' download>
           <img src="/images/download.png" alt="Download .txt" style="height:20px">
         </a>
       </div>
-      <button onclick="copyToClipboard('{{ post.permalink }}')" class="mybuttons" style="float:right">
-        <img src="/images/copy.png" alt="Copy" style="height:20px">
+      <button onclick="copyToClipboard('{{ post.permalink }}')" class="mybuttons">
+        <img src="/images/copy.png" alt="Copy" style="height:20px;margin:auto;">
       </button>
     </div>
     {% if post.read_time %}
