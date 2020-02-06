@@ -10,16 +10,16 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="clearfix">
       <h2 itemprop="headline">
-        {{title}}
+        {{title}} ({{ post.semester }})
       </h2>
       {% if post.pic %}
         <p>
           <img src="{{ base_path }}{{ post.pic }}" alt="{{  base_path }}" hspace="8" vspace="8" style="float:left; border:1px solid #ddd; border-radius: 4px; padding: 0px">
-          {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.semester }}
+          {{ post.type }}<br><i>{{ post.venue }}</i>
         </p>
       {% else %}
         <p>
-          {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.semester }}
+          {{ post.type }}<br> <i>{{ post.venue }}</i>
         </p>
       {% endif %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
