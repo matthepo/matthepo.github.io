@@ -1,7 +1,23 @@
 ---
-title: "Robust Attack Detection"
+title: "Self Driving Cars: Perception and Control (Graduate Student Instructor)"
 collection: research
+type: "Undergraduate course"
 permalink: /research/robust-detection-1
-pic: /images/research_pic_1.png
-description:
+venue: "University of Michigan, Ann Arbor, Department of Mechanical Engineering"
+date: 2017-07-01
+semester: "Fall 2017, 2018"
+location: "Ann Arbor, MI, USA"
+pic: /images/bio-photo.jpg
+description: "include description here"
 ---
+
+This is a description of a teaching experience. You can use markdown like any other post.
+
+Heading 1
+======
+
+Heading 2
+======
+
+Heading 3
+======
