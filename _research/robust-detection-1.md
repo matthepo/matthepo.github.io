@@ -4,7 +4,7 @@ collection: research
 type:
 permalink: /research/robust-detection-1
 venue:
-date:
+date: 2017-01-01
 semester:
 location:
 pic: /images/research_pic_1.png
