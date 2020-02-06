@@ -12,11 +12,16 @@
       <h2 class="archive__item-title" itemprop="headline">
         {{title}}
       </h2>
-      <p>
-        <img src="{{ base_path }}{{ post.pic }}" alt="{{  base_path }}" hspace="8" vspace="8" style="float:left; border:1px solid #ddd; border-radius: 4px; padding: 0px">
-        {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.semester }}
-      </p>
-
+      {% if post.pic %}
+        <p>
+          <img src="{{ base_path }}{{ post.pic }}" alt="{{  base_path }}" hspace="8" vspace="8" style="float:left; border:1px solid #ddd; border-radius: 4px; padding: 0px">
+          {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.semester }}
+        </p>
+      {% else %}
+        <p>
+          {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.semester }}
+        </p>
+      {% endif %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     </div>
   </article>
