@@ -7,12 +7,17 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     var mycontent = this.parentNode.nextElementSibling;
+    var mycontent2 = mycontent.nextElementSibling;
+    var mycontent3 = mycontent2.nextElementSibling;
     if (mycontent.style.maxHeight){
       mycontent.style.overflow = "hidden";
       mycontent.style.maxHeight = null;
     } else {
       mycontent.style.maxHeight = mycontent.scrollHeight + "px";
       mycontent.style.overflow = "auto";
+      mycontent2.style.overflow = "hidden";
+      mycontent2.style.maxHeight = null;
+      mycontent3.style.maxHeight = null;
     }
   });
 }
@@ -24,16 +29,19 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    var mycontent = this.parentNode.nextElementSibling.nextElementSibling;
+    var mycontent = this.parentNode.nextElementSibling;
     var mycontent2 = mycontent.nextElementSibling;
-    if (mycontent.style.maxHeight){
+    var mycontent3 = mycontent2.nextElementSibling;
+    if (mycontent2.style.maxHeight){
+      mycontent2.style.overflow = "hidden";
+      mycontent2.style.maxHeight = null;
+      mycontent3.style.maxHeight = null;
+    } else {
       mycontent.style.overflow = "hidden";
       mycontent.style.maxHeight = null;
-      mycontent2.style.maxHeight = null;
-    } else {
-      mycontent.style.maxHeight = mycontent.scrollHeight + "px";
-      mycontent.style.overflow = "auto";
-      mycontent2.style.maxHeight= "30px"
+      mycontent2.style.maxHeight = mycontent.scrollHeight + "px";
+      mycontent2.style.overflow = "auto";
+      mycontent3.style.maxHeight= "30px"
     }
   });
 }
