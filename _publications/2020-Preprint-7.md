@@ -1,6 +1,6 @@
 ---
 title: "Detecting Deception Attacks on Autonomous Vehicles via Linear Time-Varying Dynamic Watermarking"
-authors: "M. Porter, S. Dey, A. Joshi, P. Hespanhol, A. Aswani, M. Johnson-Roberson, R. Vasudevan, A. Aswani"
+authors: "M. Porter, S. Dey, A. Joshi, P. Hespanhol, A. Aswani, M. Johnson-Roberson, R. Vasudevan"
 collection: publications
 permalink: /publication/2020-Preprint-7
 biblink: '/files/bibtex/2020-Preprint-7.txt'
