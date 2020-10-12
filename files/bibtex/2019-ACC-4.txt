@@ -2,5 +2,8 @@
     title={Simulation and real-world evaluation of attack detection schemes},
     author={Porter, Matthew and Joshi, Arnav and  Hespanhol, Pedro and Aswani, Anil and Johnson-Roberson, Matthew and  Vasudevan, Ram},
     booktitle={2019 Annual American Control Conference (ACC)},
-    year={2019}
+    pages={551--558},
+    doi={10.23919/ACC.2019.8815318},
+    year={2019},
+    organization={IEEE}
 }
